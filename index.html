@@ -30,36 +30,45 @@
   <div class="menu-container"></div>
   <div class="content-container">
     <!-------------------------------------------------------------------------------------------->
-    <!--Start Header-->
+        <!--Start Header-->
     <div class="content">
-  <div class="content-table flex-column">
-    <div class="flex-row">
-      <div class="flex-item flex-column">
-        <img class="image" src="https://raw.githubusercontent.com/ChocoPop123/ParkPass/c5dc9856582715111ffc212ad5fedb4b715a900d/lib/images/Bus%20banner%20.jpeg">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <img class="image" src="https://raw.githubusercontent.com/ChocoPop123/ParkPass/c5dc9856582715111ffc212ad5fedb4b715a900d/lib/images/Bus%20banner%20.jpeg">
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">About the Project</h2>
+            <p class="text">
+              <strong>Problem Statement:</strong> Bus ticketing in Uganda is largely manual &mdash;
+              passengers queue physically to purchase tickets, fares are negotiated on the spot,
+              schedules are unreliable, and operators have little visibility into bookings or seat
+              availability. Cargo owners face unpredictable pricing and severe overcapacity at the
+              terminals.
+            </p>
+            <p class="text">
+              <strong>Our Solution:</strong> ParkPass is a mobile bus ticketing platform built using
+              Flutter and Supabase. Passengers can search routes, book seats, pay, and manage tickets
+              from their phone. Conductors get tools to manage routes, trips, and check passengers in
+              by scanning their ticket, and company admins can register their business and approve
+              conductors who join.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="flex-row">
-      <div class="flex-item flex-column">
-        <h2 class="add-top-margin-small">About the project</h2>
-        <p class="text">
-          <strong>Problem Statement:</strong> Bus ticketing in Uganda is largely manual — passengers queue physically to purchase tickets and operators have little visibility into bookings and seat availability.
-          <br><br>
-          <strong>Our Solution:</strong> ParkPass is a mobile bus ticketing platform built using Flutter and Supabase. Passengers can search routes, book seats, and manage tickets from their phones.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
     <!--End Header-->
-    <!-------------------------------------------------------------------------------------------->
-    
         <!--Start Intro-->
         <div class="flex-row">
           <div class="flex-item flex-column">
             <img class="image" src="img/bus_banner.jpg">
           </div>
           <div class="flex-item flex-column">
-            <p class="text text-large">The following are the teammates and their github usernames 
+            <p class="text text-large">The following are the teammates and their github usernames.
+
+              
               <a target="_blank" href="javascript:void(0)">Jolene Esther Namatovu</a>,ChocoPop123<br>
               <a target="_blank" href="javascript:void(0)">Wilson Stewart Oluka</a>,OSWilson<br>
               <a target="_blank" href="javascript:void(0)">Nambuya Raudha</a>,Raudha1301<br>
@@ -89,11 +98,11 @@
               <li><a href="#text-around-image">Booking Flow</a></li>
               <li><a href="#centered-image-and-table">Fares &amp; Schedule</a></li>
               <li><a href="#adaptive-image">Full Booking Journey</a></li>
-              <li><a href="#text-with-images-and-videos">Demo</a></li>
+              
               <li><a href="#iframe">Coverage Area</a></li>
               <li><a href="#list-of-projects">Core Features</a></li>
-              <li><a href="#gallery">Screenshots &amp; Team</a></li>
-              <li><a href="#masonry">Life at the Terminal</a></li>
+              <li><a href="#gallery">Screenshots </a></li>
+            
               <li><a href="#survey">Feedback Survey</a></li>
             </ul>
           </div>
@@ -118,11 +127,7 @@
               compare, and book without ever speaking to anyone in person.
             </p>
             <h3>Booking a Ticket, Step by Step</h3>
-            <p class="text">
-              Phasellus viverra nulla is not how a ParkPass booking works &mdash; here's the real flow,
-              from <a target="_blank" href="https://github.com/ChocoPop123/ParkPass">the ParkPass GitHub repository</a>
-              through to boarding:
-            </p>
+         
             <ol class="publication C-list">
               <li>
                 <p class="text-small-margin">
@@ -237,9 +242,9 @@
             <h2 id="text-around-image">Booking Flow</h2>
             <hr>
             <p class="text">
-              <span class="screenshot-placeholder image-wrap-text max-width-400" style="height:340px;">
-                <i class="fas fa-qrcode"></i>
-                QR ticket placeholder
+              <span class="screenshot-placeholder image-wrap-text max-width-400" style="height:340px;" >
+                
+                
               </span>
               Once payment succeeds, ParkPass generates a QR ticket immediately and caches it on the
               device using SQLite. That means the ticket still opens and displays at the terminal even
@@ -591,49 +596,7 @@
 </div>
 
 
-<!--Start Gallery (Screenshots & Team)-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 id="gallery">Screenshots</h2>
-            
-          </div>
-        </div>
-        <div class="gallery add-top-margin-small add-bottom-margin-small">
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-house-user"></i></div>
-            <div>Passenger Home</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-chair"></i></div>
-            <div>Seat Selection</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-qrcode"></i></div>
-            <div>QR Ticket</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-clipboard-list"></i></div>
-            <div>Conductor Trips</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-qrcode"></i></div>
-            <div>Scan Ticket</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-user-shield"></i></div>
-            <div>Admin Overview</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-box-open"></i></div>
-            <div>Cargo Booking</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column">
-            <div class="screenshot-placeholder" style="height:160px;"><i class="fas fa-cog"></i></div>
-            <div>Settings &amp; Theme</div>
-          </a>
-        </div>
-        
-        <!--End Gallery-->
+
 
 <!--Start Survey (Feedback Survey)-->
         <div class="flex-row">
