@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>ParkPass-Bus ticketing System</title>
+  <title>ParkPass-Bus Ticketing System</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" media="screen" rel="stylesheet" type="text/css" />
@@ -36,56 +36,48 @@
       <div class="content-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
-              sapien ut libero venenatis faucibus. Nullam quis ante.
-            </p>
+        
           </div>
         </div>
         <!-------------------------------------------------------------------------------------------->
         <!--Start Dropdown Menu-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2>Dropdown Menu</h2>
+            <h2>Route Picker</h2>
             <hr>
             <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
+              Passengers pick a destination from a dropdown when searching for trips. These are the
+              same routes shown in the fares table on the main page.
             </p>
             <div class="control-group">
               <div class="custom-dropdown stretch-on-mobile">
-                <a tabindex="0" href="javascript:void(0)"><span>Dropdown Menu (No JavaScript)</span></a>
+                <a tabindex="0" href="javascript:void(0)"><span>Choose Destination</span></a>
                 <div>
-                  <a href="javascript:void(0)">Item 1</a>
-                  <a href="javascript:void(0)">Item 2</a>
-                  <a href="javascript:void(0)">Item 3</a>
-                  <a href="javascript:void(0)">Item 4</a>
-                  <a href="javascript:void(0)">Item 5</a>
+                  <a href="javascript:void(0)">Gulu</a>
+                  <a href="javascript:void(0)">Mbarara</a>
+                  <a href="javascript:void(0)">Mbale</a>
+                  <a href="javascript:void(0)">Soroti</a>
+                  <a href="javascript:void(0)">All Destinations</a>
                 </div>
               </div>
               <div class="custom-dropdown stretch-on-mobile large">
-                <a tabindex="0" href="javascript:void(0)"><span>Large Dropdown Menu (No JavaScript)</span></a>
+                <a tabindex="0" href="javascript:void(0)"><span>Choose a Bus Company</span></a>
                 <div>
-                  <a href="javascript:void(0)">Item 1</a>
-                  <a href="javascript:void(0)">Item 2</a>
-                  <a href="javascript:void(0)">Item 3</a>
-                  <a href="javascript:void(0)">Item 4</a>
-                  <a href="javascript:void(0)">Item 5</a>
+                  <a href="javascript:void(0)">All Companies</a>
+                  <a href="javascript:void(0)">Link Bus Company</a>
+                  <a href="javascript:void(0)">Gaagaa Bus Company</a>
+                  <a href="javascript:void(0)">YY Coaches</a>
+                  <a href="javascript:void(0)">Kalita Transporters</a>
                 </div>
               </div>
               <div class="custom-dropdown stretch-on-mobile" id="custom-dropdown">
-                <a tabindex="0" href="javascript:void(0)"><span>Dropdown Menu (No JavaScript)</span></a>
+                <a tabindex="0" href="javascript:void(0)"><span>Sort Trips By</span></a>
                 <div>
-                  <a href="javascript:void(0)">Item 1</a>
-                  <a href="javascript:void(0)">Item 2</a>
-                  <a href="javascript:void(0)">Item 3</a>
-                  <a href="javascript:void(0)">Item 4</a>
-                  <a href="javascript:void(0)">Item 5</a>
+                  <a href="javascript:void(0)">Departure Time</a>
+                  <a href="javascript:void(0)">Lowest Fare</a>
+                  <a href="javascript:void(0)">Seats Remaining</a>
+                  <a href="javascript:void(0)">Bus Class</a>
+                  <a href="javascript:void(0)">Company Name</a>
                 </div>
               </div>
               <div class="custom-dropdown stretch-on-mobile large" id="custom-dropdown-large">
@@ -100,26 +92,20 @@
         <!--Start Radio Button-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2>Radio Button</h2>
+            <h2>Trip Type</h2>
             <hr>
             <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
+              Passengers choose one-way or round-trip before searching — this toggle is what
+              drives the two booking flows shown in the App Screens section on the main page.
             </p>
             <div class="control-group">
               <div class="custom-radio custom-radio-left">
-                <input type="radio" name="playback-speed" value="slow" id="speed-slow">
-                <label for="speed-slow">Slow</label>
-              </div>
-              <div class="custom-radio custom-radio-middle">
-                <input type="radio" name="playback-speed" value="medium" id="speed-medium" checked>
-                <label for="speed-medium">Medium</label>
+                <input type="radio" name="trip-type" value="oneway" id="trip-oneway" checked>
+                <label for="trip-oneway">One Way</label>
               </div>
               <div class="custom-radio custom-radio-right">
-                <input type="radio" name="playback-speed" value="fast" id="speed-fast">
-                <label for="speed-fast">Fast</label>
+                <input type="radio" name="trip-type" value="roundtrip" id="trip-roundtrip">
+                <label for="trip-roundtrip">Round Trip</label>
               </div>
             </div>
           </div>
@@ -129,55 +115,51 @@
         <!--Start Dialog Button and Box-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2>Dialog Button and Box</h2>
+            <h2>Booking Dialogs</h2>
             <hr>
             <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
+              These are the confirmation and status dialogs a passenger or conductor might see
+              during a real booking — from confirming a seat to sharing a ticket link.
             </p>
             <div class="control-group">
-              <button id="dialog-btn-1" class="custom-button-flat"><img src="img/setting.png"><span>Dialog 1</span></button>
-              <button id="dialog-btn-2" class="custom-button-flat"><img src="img/setting.png"><span>Dialog 2</span></button>
-              <button id="dialog-btn-3" class="custom-button-flat"><img src="img/setting.png"><span>Dialog 3</span></button>
-              <button id="dialog-btn-4" class="custom-button-flat"><img src="img/setting.png"><span>Dialog 4</span></button>
-              <button id="share-btn" title="Share" class="custom-button-flat"><img src="img/share.png"><span>Share</span></button>
+              <button id="dialog-btn-1" class="custom-button-flat"><img src="img/setting.png"><span>Confirm Booking</span></button>
+              <button id="dialog-btn-2" class="custom-button-flat"><img src="img/setting.png"><span>Trip Delayed</span></button>
+              <button id="dialog-btn-3" class="custom-button-flat"><img src="img/setting.png"><span>Cancel Ticket</span></button>
+              <button id="dialog-btn-4" class="custom-button-flat"><img src="img/setting.png"><span>Payment Confirmed</span></button>
+              <button id="share-btn" title="Share" class="custom-button-flat"><img src="img/share.png"><span>Share Ticket</span></button>
             </div>
-            <div id="dialog-1" title="Dialog 1" data-role="none">
-              <p>No action, attached and centered to the window, full-width button.</p>
+            <div id="dialog-1" title="Confirm Booking" data-role="none">
+              <p>Seat 14 on Kampala → Gulu, Executive class, departs 14:30. Confirm to proceed to payment.</p>
             </div>
-            <div id="dialog-2" title="Dialog 2" data-role="none">
-              <p>With action, no close button, attached and centered to the window.</p>
+            <div id="dialog-2" title="Trip Delayed" data-role="none">
+              <p>Your trip to Mbarara is now departing at 15:10, 40 minutes later than originally scheduled. We'll notify you again if this changes.</p>
             </div>
-            <div id="dialog-3" title="Dialog 3" data-role="none">
-              <p>No action and cancel buttons, attached and centered to the content element.</p>
+            <div id="dialog-3" title="Cancel Ticket" data-role="none">
+              <p>Cancelling this ticket releases your seat back to the trip immediately. This action cannot be undone.</p>
             </div>
-            <div id="dialog-4" title="Dialog 4" data-role="none">
-              <p>With action, attached and centered to the window, reversed button positions.</p>
+            <div id="dialog-4" title="Payment Confirmed" data-role="none">
+              <p>UGX 48,000 received via Mobile Money. Your QR ticket has been generated and cached on your device.</p>
             </div>
-            <div id="share-dialog" title="Share" data-role="none">
+            <div id="share-dialog" title="Share Ticket" data-role="none">
               <p>Copy the following link and share it with others:</p>
-              <input id="share-url" class="custom-textbox" type="text" autofocus="autofocus" value="https://yenchiah.github.io/project-website-template/" readonly>
+              <input id="share-url" class="custom-textbox" type="text" autofocus="autofocus" value="https://raudha1301.github.io/parkpass-project-site/" readonly>
               <p id="share-url-copy-prompt">The share link is copied.</p>
             </div>
           </div>
         </div>
         <!--End Dialog Button and Box-->
         <!-------------------------------------------------------------------------------------------->
-        <!--Start Unsplash Photo Picker-->
+        <!--Start Photo Picker-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2>Unsplash Photo Picker</h2>
+            <h2>Company Logo Picker</h2>
             <hr>
             <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
+              When a bus company registers on ParkPass, the admin uploads a logo that appears
+              throughout the app — on the company picker, trip listings, and tickets.
             </p>
             <div class="custom-survey add-top-margin add-bottom-margin" id="create-vision">
-              <span class="text">1. Please click on the following image to choose a photo obtained from the Unsplash application:</span>
+              <span class="text">Click on the frame below to choose a company logo image:</span>
               <a id="vision-image-frame" class="painting-frame" href="javascript:void(0)" style="margin-top: 25px;">
                 <div class="painting-frame-item">
                   <img id="vision-image" class="painting-frame-image" style="max-height: 300px;" src="img/choose-image.png">
@@ -186,157 +168,152 @@
             </div>
           </div>
         </div>
-        <!--End Unsplash Photo Picker-->
+        <!--End Photo Picker-->
         <!-------------------------------------------------------------------------------------------->
         <!--Start Tab-->
         <div class="flex-row">
           <div class="flex-item flex-column full-width">
-            <h2>Tab</h2>
+            <h2>Coverage & Fares</h2>
             <hr>
             <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
+              A closer look at where ParkPass currently operates, sample screens, and the fare
+              tables also shown on the main page — grouped here into tabs.
             </p>
             <div class="custom-tab" id="custom-tab">
               <div class="custom-tab-menu center">
-                <a class="custom-tab-menu-item active" data-content="iframe">Iframe</a>
-                <a class="custom-tab-menu-item" data-content="image">Image</a>
-                <a class="custom-tab-menu-item" data-content="table">Table</a>
+                <a class="custom-tab-menu-item active" data-content="iframe">Coverage Area</a>
+                <a class="custom-tab-menu-item" data-content="image">Screens</a>
+                <a class="custom-tab-menu-item" data-content="table">Fares</a>
               </div>
               <div class="custom-tab-content" data-content="image">
                 <p class="text text-center graph-title">
-                  Title for the bottom image
+                  Home Page
                 </p>
-                <img class="image no-top-margin max-width-400 center add-top-margin-small" src="img/dummay-img.png">
+                <img class="image no-top-margin max-width-400 center add-top-margin-small" src="img/parkpass-home.jpeg">
                 <p class="text text-center graph-title">
-                  Title for the bottom image
+                  Seat Selection
                 </p>
-                <img class="image no-top-margin max-width-400 center add-top-margin-small" src="img/dummay-img.png">
+                <img class="image no-top-margin max-width-400 center add-top-margin-small" src="img/parkpass-seat-selection.jpeg">
                 <p class="text">
-                  Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-                  augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-                  condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc.
-                </p>
-                <p class="text">
-                  Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-                  augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-                  condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc.
+                  The seat map and home screen shown here are the same ones covered in the
+                  App Screens section of the main page — passengers move from route search
+                  straight into a live seat grid with no extra steps in between.
                 </p>
               </div>
               <div class="custom-tab-content" data-content="table">
                 <p class="text text-center graph-title">
-                  Title for the bottom table
+                  Fare tiers by bus class (Kampala → Gulu)
                 </p>
                 <div class="custom-table-container center add-top-margin-small">
                   <table class="custom-table">
                     <thead>
                       <tr class="bg-color-gray">
-                        <th>Number of</th>
-                        <th class="text-center">Unique Users</th>
-                        <th class="text-center">Smell Reports</th>
-                        <th class="text-center">Interaction Events</th>
+                        <th>Bus Class</th>
+                        <th class="text-center">Typical Fare (UGX)</th>
+                        <th class="text-center">Seats</th>
+                        <th class="text-center">Cargo Space</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Enthusiasts</td>
-                        <td class="text-center">9.4%</td>
-                        <td class="text-center">50.6%</td>
-                        <td class="text-center">44.8%</td>
+                        <td>Ordinary</td>
+                        <td class="text-center">35,000</td>
+                        <td class="text-center">62</td>
+                        <td class="text-center">Standard</td>
                       </tr>
                       <tr class="bg-color-light-gray">
-                        <td>Explorers</td>
-                        <td class="text-center">36.1%</td>
-                        <td class="text-center">37.3%</td>
-                        <td class="text-center">27.3%</td>
+                        <td>Executive</td>
+                        <td class="text-center">48,000</td>
+                        <td class="text-center">44</td>
+                        <td class="text-center">Reduced</td>
                       </tr>
                       <tr>
-                        <td>Contributors</td>
-                        <td class="text-center">13.0%</td>
-                        <td class="text-center">12.1%</td>
-                        <td class="text-center">n/a</td>
-                      </tr>
-                      <tr class="bg-color-light-gray">
-                        <td>Observers</td>
-                        <td class="text-center">41.6%</td>
-                        <td class="text-center">n/a</td>
-                        <td class="text-center">27.9%</td>
+                        <td>VIP</td>
+                        <td class="text-center">65,000</td>
+                        <td class="text-center">30</td>
+                        <td class="text-center">Priority</td>
                       </tr>
                     </tbody>
-                    <tfoot>
-                      <tr>
-                        <td>Size (N)</td>
-                        <td class="text-center">2,237</td>
-                        <td class="text-center">8,112</td>
-                        <td class="text-center">79,447</td>
-                      </tr>
-                    </tfoot>
                   </table>
                 </div>
                 <p class="text text-center graph-title">
-                  Title for the bottom table
+                  Weekly departures, Kampala terminal
                 </p>
                 <div class="custom-table-container center add-top-margin-small">
                   <table class="custom-table">
                     <thead>
                       <tr class="bg-color-gray">
-                        <th>Number of</th>
-                        <th class="text-center">Unique Users</th>
-                        <th class="text-center">Smell Reports</th>
-                        <th class="text-center">Interaction Events</th>
+                        <th>Route</th>
+                        <th class="text-center">Mon</th>
+                        <th class="text-center">Tue</th>
+                        <th class="text-center">Wed</th>
+                        <th class="text-center">Thu</th>
+                        <th class="text-center">Fri</th>
+                        <th class="text-center">Sat</th>
+                        <th class="text-center">Sun</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Enthusiasts</td>
-                        <td class="text-center">9.4%</td>
-                        <td class="text-center">50.6%</td>
-                        <td class="text-center">44.8%</td>
+                        <td>Kampala → Gulu</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">4</td>
+                        <td class="text-center">4</td>
+                        <td class="text-center">2</td>
                       </tr>
                       <tr class="bg-color-light-gray">
-                        <td>Explorers</td>
-                        <td class="text-center">36.1%</td>
-                        <td class="text-center">37.3%</td>
-                        <td class="text-center">27.3%</td>
+                        <td>Kampala → Mbarara</td>
+                        <td class="text-center">5</td>
+                        <td class="text-center">5</td>
+                        <td class="text-center">5</td>
+                        <td class="text-center">5</td>
+                        <td class="text-center">6</td>
+                        <td class="text-center">6</td>
+                        <td class="text-center">4</td>
                       </tr>
                       <tr>
-                        <td>Contributors</td>
-                        <td class="text-center">13.0%</td>
-                        <td class="text-center">12.1%</td>
-                        <td class="text-center">n/a</td>
+                        <td>Kampala → Mbale</td>
+                        <td class="text-center">4</td>
+                        <td class="text-center">4</td>
+                        <td class="text-center">4</td>
+                        <td class="text-center">4</td>
+                        <td class="text-center">5</td>
+                        <td class="text-center">5</td>
+                        <td class="text-center">3</td>
                       </tr>
                       <tr class="bg-color-light-gray">
-                        <td>Observers</td>
-                        <td class="text-center">41.6%</td>
-                        <td class="text-center">n/a</td>
-                        <td class="text-center">27.9%</td>
+                        <td>Kampala → Soroti</td>
+                        <td class="text-center">2</td>
+                        <td class="text-center">2</td>
+                        <td class="text-center">2</td>
+                        <td class="text-center">2</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
                       </tr>
                     </tbody>
-                    <tfoot>
-                      <tr>
-                        <td>Size (N)</td>
-                        <td class="text-center">2,237</td>
-                        <td class="text-center">8,112</td>
-                        <td class="text-center">79,447</td>
-                      </tr>
-                    </tfoot>
                   </table>
                 </div>
               </div>
               <div class="custom-tab-content no-padding" data-content="iframe">
                 <p class="text text-center graph-title add-top-right-left-padding add-bottom-border">
-                  Title for the bottom iframe
+                  Where ParkPass Currently Operates
                 </p>
-                <iframe class="iframe-in-tab" src="https://yenchiah.me/geo-heatmap/smell.html"></iframe>
+                <!--
+                  Swap the src below for a real embedded map of your covered routes
+                  (e.g. a Google My Maps embed pinning Kampala, Gulu, Mbarara, Mbale,
+                  and Soroti) once one is ready. Left as a placeholder src for now.
+                -->
+                <iframe class="iframe-in-tab" src="about:blank"></iframe>
               </div>
             </div>
             <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
+              Coverage starts with Kampala as the hub terminal, radiating out to four
+              upcountry destinations — Gulu, Mbarara, Mbale, and Soroti — with more routes
+              added as bus companies register.
             </p>
           </div>
         </div>
@@ -345,41 +322,37 @@
         <!--Start Legend-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2>Legend</h2>
+            <h2>Seat Map Legend</h2>
             <hr>
             <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules.
+              The live, colour-coded seat map referenced in the booking steps on the main page
+              uses this exact legend — every seat is always in one of these three states.
             </p>
             <div class="custom-legend noselect" style="width: 210px">
-              <h3 class="legend-title">Fruits (No JavaScript)</h3>
+              <h3 class="legend-title">Seat Status</h3>
               <div class="legend-scale">
                 <ul class="legend-labels">
-                  <li><span style="background:#b05ed6;"></span>Apple</li>
-                  <li><span style="background:#dae65f;"></span>Banana</li>
-                  <li><span style="background:#6aeec1;"></span>Mango</li>
-                  <li><span style="background:#ec8a27;"></span>Watermelon</li>
+                  <li><span style="background:#22c55e;"></span>Available</li>
+                  <li><span style="background:#f59e0b;"></span>Held</li>
+                  <li><span style="background:#ef4444;"></span>Booked</li>
                 </ul>
-                <div class="legend-source">Source: <a target="_blank" href="https://github.com/yenchiah/project-website-template">GitHub</a></div>
+                <div class="legend-source">Source: <a target="_blank" href="https://github.com/ChocoPop123/ParkPass">GitHub</a></div>
               </div>
             </div>
             <div class="custom-legend noselect" style="width: 210px" id="custom-legend">
-              <h3 class="legend-title">Fruits (Collapsible)</h3>
+              <h3 class="legend-title">Bus Class</h3>
               <div class="legend-scale">
                 <ul class="legend-labels">
-                  <li><span style="background:#b05ed6;"></span>Apple</li>
-                  <li><span style="background:#dae65f;"></span>Banana</li>
-                  <li><span style="background:#6aeec1;"></span>Mango</li>
-                  <li><span style="background:#ec8a27;"></span>Watermelon</li>
+                  <li><span style="background:#9ca3af;"></span>Ordinary</li>
+                  <li><span style="background:#2563EB;"></span>Executive</li>
+                  <li><span style="background:#F59E0B;"></span>VIP</li>
                 </ul>
-                <div class="legend-source">Source: <a target="_blank" href="https://github.com/yenchiah/project-website-template">GitHub</a></div>
+                <div class="legend-source">Source: <a target="_blank" href="https://github.com/ChocoPop123/ParkPass">GitHub</a></div>
               </div>
             </div>
             <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules.
+              Held seats release automatically if a booking isn't completed in time, so a seat
+              never stays stuck as unavailable because someone abandoned checkout.
             </p>
           </div>
         </div>
@@ -388,13 +361,16 @@
         <!--Start Gallery-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2>Gallery Generated Using JavaScript</h2>
+            <h2>App Screens Gallery</h2>
             <hr>
             <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
+              A generated gallery view of the same screenshots shown in the App Screens
+              section on the main page.
+            </p>
+            <p class="text text-small text-italic">
+              Note: this gallery is populated by <code>js/custom.js</code>, which isn't part
+              of this file — if the images below don't match, that data source needs updating
+              separately (paste it and I can fix it too).
             </p>
           </div>
         </div>
@@ -402,46 +378,22 @@
         <div class="flex-row">
           <div class="flex-item flex-column">
             <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
+              Full captions for each screen — Home Page, Login, One Way search, Round Trip
+              search, Seat Selection, Payment, and Ticket/QR — are on the main page under
+              App Screens.
             </p>
           </div>
         </div>
         <!--End Gallery-->
         <!-------------------------------------------------------------------------------------------->
-        <!--Start Masonry-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2>Masonry Generated Using JavaScript</h2>
-            <hr>
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-          </div>
-        </div>
-        <div class="masonry add-top-margin-small add-bottom-margin-small" id="masonry"></div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-          </div>
-        </div>
-        <!--End Masonry-->
+        
         <!-------------------------------------------------------------------------------------------->
         <!--Start Credits-->
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
             <p class="text text-small text-italic add-top-margin-large">
-              Credits: <span class="highlight-text">Organization One</span>: Author One and Author Two / <span class="highlight-text">Organization Two</span>: Author Three and Author Four
+              Credits: <span class="highlight-text">Makerere University, Department of Computer Science</span>
+              — Jolene Esther Namatovu, Wilson Stewart Oluka, Nambuya Raudha, Nanfuka Justine, and Namubiru Ritah.
             </p>
           </div>
         </div>
