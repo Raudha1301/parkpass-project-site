@@ -98,7 +98,81 @@
             </ul>
           </div>
         </div>
-        
+
+
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="text-only">How ParkPass Works</h2>
+            <hr>
+            <p class="text">
+              Today, boarding an intercity bus in Kampala means arriving early, physically queueing at
+              the terminal, and negotiating a fare on the spot with no guarantee a seat is actually
+              available by the time you reach the counter. Cargo owners face the same uncertainty:
+              they show up with goods and only then find out whether there's space and what it will
+              cost. ParkPass moves all of that onto the passenger's phone, before they ever leave home.
+            </p>
+            <p class="text">
+              A conductor first registers their company and is approved by a company admin. Once
+              approved, they publish routes and schedule trips &mdash; each trip carries its own bus
+              class, plate number, driver details, and seat count. From there, passengers can search,
+              compare, and book without ever speaking to anyone in person.
+            </p>
+            <h3>Booking a Ticket, Step by Step</h3>
+            <p class="text">
+              Phasellus viverra nulla is not how a ParkPass booking works &mdash; here's the real flow,
+              from <a target="_blank" href="https://github.com/ChocoPop123/ParkPass">the ParkPass GitHub repository</a>
+              through to boarding:
+            </p>
+            <ol class="publication C-list">
+              <li>
+                <p class="text-small-margin">
+                  <strong>Search</strong> &mdash; the passenger picks a company (or searches across all
+                  of them) and looks up trips by destination.
+                </p>
+              </li>
+              <li>
+                <p class="text-small-margin">
+                  <strong>Select a seat</strong> &mdash; a live, colour-coded seat map shows what's free,
+                  held, or already booked, updating in real time as other passengers book.
+                </p>
+              </li>
+              <li>
+                <p class="text-small-margin">
+                  <strong>Pay</strong> &mdash; via Mobile Money or card, with the fare shown up front,
+                  no negotiation required.
+                </p>
+              </li>
+              <li>
+                <p class="text-small-margin">
+                  <strong>Board</strong> &mdash; the passenger's QR ticket, generated instantly and cached
+                  offline, gets scanned by the conductor at boarding.
+                </p>
+              </li>
+            </ol>
+            <h3>What a Trip Actually Includes</h3>
+            <ul>
+              <li>Origin, destination, and departure time</li>
+              <li>Bus class: Ordinary, Executive, or VIP
+                <ul>
+                  <li>Each class can carry its own fare, set by the conductor when scheduling the trip</li>
+                  <li>Bus plate number, colour, and driver contact are attached to every trip</li>
+                </ul>
+              </li>
+              <li>Remaining cargo capacity, tracked separately from passenger seats</li>
+            </ul>
+            <h3>Cargo Pricing, Made Transparent</h3>
+            <p class="text">
+              Cargo price is calculated the moment a weight is entered &mdash; no negotiation, no
+              surprises at the terminal:
+            </p>
+            <img class="image center" src="https://latex.codecogs.com/svg.latex?\text{Price}=\text{Weight}_{kg}\times\text{Price\%20per\%20kg}" style="max-width: 320px;">
+            <p class="text">
+              The conductor verifies the actual weight against what was booked before the cargo is
+              loaded, so the price a passenger sees when booking is the price they pay.
+            </p>
+          </div>
+        </div>
+
        <div class="flex-row">
   <div class="flex-item flex-column">
     <h2 id="app-screens">App Screens</h2>
